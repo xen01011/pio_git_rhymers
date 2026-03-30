@@ -1,5 +1,15 @@
 package edu.kis.vh.nursery;
 
+/**
+ * Podstawowa implementacja Rhymer działająca jak stos (LIFO) o stałej pojemności.
+ * Przechowuje liczby całkowite w tablicy i pozwala:
+ * dodawać elementy na szczyt - countIn(int),
+ * odczytywać szczyt bez usuwania - peekaboo(),
+ * zdejmować element ze szczytu - countOut(),
+ * oraz sprawdzać stany pusty/pełny.
+ * Wartość stała EMPTY jest używana jako znacznik pustej struktury.
+ */
+
 public class DefaultCountingOutRhymer {
 
     private static final int CAPACITY = 12;
